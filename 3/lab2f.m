@@ -1,0 +1,11 @@
+x=linspace(0, 2*pi, 100);
+y = (4/pi)*(sin(@x);
+figure(1);
+p1 = plot(x,y,'r');
+title("Plot of sin(x)");
+xlabel("x");
+ylabel("sin(x)");
+legend ("sin(x)");
+set(gca,'xticklabelmode','manual');
+set(gca,'xtick',0:pi/2:2*pi);
+set(gca,'xticklabel',{'0','pi/2','pi','3pi/2','2pi'});
